@@ -19,6 +19,10 @@ int main(){
 	}
 
 	printf("Heads: %d, Tails: %d", heads, tails);
+	
+	/*part of judge if you won or lost*/
+	if(heads > tails) printf("You won!\n");
+	else printf("You lost.\n");
 
 	return 0;
 }
